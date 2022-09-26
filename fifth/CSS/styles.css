@@ -1,0 +1,45 @@
+.head_image{
+		display: block;
+		margin: auto;
+	border-width: 30px;
+	border: solid #6c25be;
+}
+.head_text{
+	text-align: center;
+	margin: auto;
+	font-family: Georgia, serif;
+		border-width: 30px;
+	border: solid #6c25be;
+}
+h1{
+}
+.head_subtext{
+	text-align: center;
+			border-width: 30px;
+	border: solid #6a6999;
+}
+main ul{
+	display: flex;
+	list-style: none;
+			border-width: 30px;
+	border: solid #6c25be;
+}
+.fa-chevron-right{
+	color: dimgray;
+	opacity: 0.4;
+	font-size: 10px;
+}
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+	padding: 5px;
+		border-width: 30px;
+		border: solid #6c25be;
+}
+.foot_image{
+	width: 50px;
+	height: 50px%;
+}
