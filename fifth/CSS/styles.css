@@ -1,28 +1,38 @@
 .head_image{
 		display: block;
 		margin: auto;
-	border-width: 30px;
-	border: solid #6c25be;
+		max-width:100%
 }
 .head_text{
 	text-align: center;
 	margin: auto;
-	font-family: Georgia, serif;
-		border-width: 30px;
-	border: solid #6c25be;
+	font-family: Georgia, sans-serif;
+	font-size:35px;
+	width: 50%;
+	height: 80px;
+	line-height: 40px;	
 }
-h1{
+hr{
+	width: 85%;
+	border: none;
+    border-top: 4px double rgb(241, 236, 236);
+
+
 }
 .head_subtext{
 	text-align: center;
-			border-width: 30px;
-	border: solid #6a6999;
+	font-family: Georgia, sans-serif;
+	width: 80%;
+	margin:1px auto;
 }
 main ul{
 	display: flex;
 	list-style: none;
-			border-width: 30px;
-	border: solid #6c25be;
+	margin:1px auto;
+	width: 70%;
+}
+li{
+margin: 2px;
 }
 .fa-chevron-right{
 	color: dimgray;
@@ -33,13 +43,21 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+	width: 40%;
+	
+	margin:1px auto;
 
 	padding: 5px;
-		border-width: 30px;
-		border: solid #6c25be;
 }
 .foot_image{
-	width: 50px;
-	height: 50px%;
+	width: 60px;
+	height: 50px;
+}
+span{
+	font-size: 1.1em;
+	font-family: sans-serif;
+	color: black;
+}
+.footer_text{
+	color: rgb(161, 161, 161);
 }
